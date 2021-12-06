@@ -1,6 +1,6 @@
 <?php
 
-$koneksi = mysqli_connect("Localhost", "root", "","tbuser");    
+$koneksi = mysqli_connect("Localhost", "root", "","buku_kas");    
 
 function ambil($ambil)
 {

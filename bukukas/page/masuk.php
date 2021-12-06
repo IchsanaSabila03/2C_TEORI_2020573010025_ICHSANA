@@ -1,7 +1,7 @@
 <?php 
 
 require "page/koneksi.php";
-$pemasukan = ambil("SELECT  * FROM tbmasuk");
+$pemasukan = ambil("SELECT  * FROM tb_masuk");
 
 
 ?>
@@ -19,7 +19,7 @@ $pemasukan = ambil("SELECT  * FROM tbmasuk");
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                             Advanced Tables
+                             KAS MASUK
                         </div>
                         <div class="panel-body">
                             <div class="table-responsive">
@@ -43,7 +43,7 @@ $pemasukan = ambil("SELECT  * FROM tbmasuk");
                                         <?php foreach ($pemasukan as $masuk) :?>
                                         <tr class="odd gradeX">
                                             <td align="center"><?php echo $i?></td>
-                                            <td><?php echo $masuk ['kode'];?></td>
+                                            <td><?php echo $masuk ['nama_barang'];?></td>
                                             <td><?php echo $masuk['tanggal'];?></td>
                                             <td><?php echo $masuk ['keterangan'];?></td>
                                             <td><?php echo $masuk ['jumlah'];?></td>

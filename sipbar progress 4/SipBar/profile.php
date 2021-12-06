@@ -46,17 +46,17 @@ require "proses/koneksi.php";
               <input type="text" class="form-control"
               value="<?php echo $data1['id_user'];?>"
               disabled>
+              <div class="mb-3">
+              <label class="form-label">Nama</label>
+              <input type="text" class="form-control"
+              value="<?php echo $data1['nama'];?>"
+              disabled>
+            </div>
             </div>  
           <div class="mb-3">
               <label class="form-label">NIM</label>
               <input type="text" class="form-control"
               value="<?php echo $data1['nim'];?>"
-              disabled>
-            </div>
-            <div class="mb-3">
-              <label class="form-label">Nama</label>
-              <input type="text" class="form-control"
-              value="<?php echo $data1['nama'];?>"
               disabled>
             </div>
             <div class="mb-3">
@@ -86,7 +86,7 @@ require "proses/koneksi.php";
             <div class="mb-3">
               <label class="form-label">Tanggal Lahir</label>
               <input type="text" class="form-control"
-              value="<?php echo $data1['tanggal_lahir'];?>"
+              value="<?php echo $data1['tgl_lahir'];?>"
               disabled>
             </div>
             <div class="mb-3">
