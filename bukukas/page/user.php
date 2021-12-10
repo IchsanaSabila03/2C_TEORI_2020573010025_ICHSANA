@@ -1,3 +1,1 @@
-<h2>
-    Halaman User 
-</h2>
+<h2>Manager User</h2>

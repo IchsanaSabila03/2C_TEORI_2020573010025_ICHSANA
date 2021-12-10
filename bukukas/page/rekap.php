@@ -1,3 +1,3 @@
 <h2>
-    Halaman Rekap
+    Rekapitulasi
 </h2>

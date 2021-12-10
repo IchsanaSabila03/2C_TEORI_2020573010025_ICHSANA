@@ -18,18 +18,20 @@ $pemasukan = ambil("SELECT  * FROM tb_keluar");
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                             KAS KELUAR
+                        <h2>
+                        KAS KELUAR
+                        </h2>      
                         </div>
                         <div class="panel-body">
                             <div class="table-responsive">
                             <form class="d-flex" style="width: 120px;">  
                                 <input class="form-control ms-auto" type="search" placeholder="Search" aria-label="Search" id="Search" value=" Search">
                             </form>   
-                           </div>
+                        </div>
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr class="text-center">
-                                            <th>id</th>
+                                            <th>no</th>
                                             <th>nama barang</th>
                                             <th>tanggal</th>
                                             <th>keterangan</th>

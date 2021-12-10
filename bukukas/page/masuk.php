@@ -19,14 +19,16 @@ $pemasukan = ambil("SELECT  * FROM tb_masuk");
                     <!-- Advanced Tables -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                             KAS MASUK
+                        <h2>
+                        KAS MASUK
+                        </h2>   
                         </div>
                         <div class="panel-body">
                             <div class="table-responsive">
                             <form class="d-flex" style="width: 120px;">  
                                 <input class="form-control ms-auto" type="search" placeholder="Search" aria-label="Search" id="Search" value=" Search">
                             </form>   
-                           </div>
+                        </div>
                                 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr class="text-center">

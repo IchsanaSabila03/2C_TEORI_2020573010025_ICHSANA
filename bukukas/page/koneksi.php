@@ -1,7 +1,5 @@
 <?php
-
 $koneksi = mysqli_connect("Localhost", "root", "","buku_kas");    
-
 function ambil($ambil)
 {
     global $koneksi;
